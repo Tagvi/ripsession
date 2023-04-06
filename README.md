@@ -20,3 +20,6 @@ You can run --help for more information and other flags
 - [ ] Make a library out of the code and call it from the main function
 
 (Both are extremely easy to do, I just don't have enough time myself)
+
+## Example
+You can also check out the example directory for a concrete example
