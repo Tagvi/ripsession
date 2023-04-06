@@ -8,6 +8,9 @@ and checks if it returns a 200-299 status code,
 it also validates the response by checking if 
 the response contains the failure indicator string.
 
+## Requirements
+Cargo, [flask_unsign](https://github.com/Paradoxis/Flask-Unsign/)
+
 ## Installing
 ```sh
   git clone https://github.com/Tagvi/ripsession.git && cd ripsession
