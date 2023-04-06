@@ -8,8 +8,14 @@ and checks if it returns a 200-299 status code,
 it also validates the response by checking if 
 the response contains the failure indicator string.
 
+## Installing
+```sh
+  git clone https://github.com/Tagvi/ripsession.git && cd ripsession
+  cargo install --path .
+```
+
 ## Usage
-```shell
+```console
   Usage: ripsession [OPTIONS] --url <URL> --cookie <COOKIE> --secret <SECRET> --failure-indicator <FAILURE_INDICATOR> --wordlist <WORDLIST>
   ```
 Cookie format: `{"key": "changeMe"}`, the program will automatically replace every mention of `changeMe` with a word from the wordlist.
